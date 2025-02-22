@@ -1,4 +1,4 @@
-from main import app, db
+from app import app, db
 from models import Task
 from flask import render_template, redirect, url_for
 from models import Task
